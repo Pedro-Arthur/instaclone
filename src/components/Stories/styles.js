@@ -1,15 +1,27 @@
 import styled from 'styled-components/native';
 
-export const StoriesList = styled.ScrollView`
-  background-color: #FFF;
-  padding: 3% 0;
+export const Container = styled.View`
+  background-color: #fff;
+  padding: 10px 0;
   border-bottom-width: 0.5px;
   border-color: #DDD;
 `;
 
+export const StoriesList = styled.ScrollView``;
+
 export const Story = styled.TouchableOpacity`
   align-items: center;
-  margin-left: 5%;
+  margin-left: 10px;
+`;
+
+export const StoryProfile = styled.TouchableOpacity`
+  align-items: center;
+  margin: 0 0 0 10px;
+`;
+
+export const LastStory = styled.TouchableOpacity`
+  align-items: center;
+  margin: 0 10px 0 10px;
 `;
 
 export const StoryImage = styled.Image`
@@ -27,6 +39,13 @@ export const StoryBorder = styled.View`
   padding: 3px;
   border-width: 1px;
   border-color: #E42045;
+`;
+
+export const ProfileStoryBorder = styled.View`
+  border-radius: 100px;
+  padding: 3px;
+  border-width: 1px;
+  border-color: #A9A9A9;
 `;
 
 export const StoryBorderNearFriend = styled.View`

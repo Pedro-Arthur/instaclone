@@ -12,15 +12,10 @@ export const Container = styled.View`
 
 export const IconButton = styled.TouchableOpacity``;
 
-export const IconImage = styled.Image`
-  width: 22px;
-  height: 22px;
-`;
-
 export const ProfileButton = styled.TouchableOpacity``;
 
 export const ProfileImage = styled.Image`
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
   border-radius: 100px;
 `;

@@ -2,15 +2,18 @@ import styled from 'styled-components/native';
 
 export const Likes = styled.Text`
   font-weight: bold;
-  margin: 0 3%;
+  margin: 0 10px;
 `;
 
-export const FeedArea = styled.View``;
+export const FeedArea = styled.View`
+  background-color: #FFF;
+  margin: 0 0 20px 0;
+`;
 
 export const InfoUser = styled.View`
   flex-direction: row;
   align-items: center;
-  margin: 0 3%;
+  margin: 0 10px;
 `;
 
 export const ProfileView = styled.View`
@@ -21,8 +24,8 @@ export const ProfileView = styled.View`
 `;
 
 export const ProfileImage = styled.Image`
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
   border-radius: 100px;
 `;
 
@@ -30,7 +33,7 @@ export const ProfileName = styled.Text`
   font-size: 14px;
   text-align: left;
   color: #000000;
-  padding-left: 5px;
+  padding-left: 10px;
   font-weight: bold;
 `;
 
@@ -38,19 +41,14 @@ export const ButtonIcon = styled.TouchableOpacity``;
 
 export const PostImage = styled.Image`
   height: 300px;
-  align-items: center;
+  width: 100%;
 `;
 
 export const UserActions = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 3%;
-`;
-
-export const UserActionsIcon = styled.Image`
-  width: 22px;
-  height: 22px;
+  margin: 10px;
 `;
 
 export const ButtonArea = styled.View`
@@ -62,7 +60,7 @@ export const ButtonArea = styled.View`
 export const Footer = styled.View`
   flex-direction: row;
   align-items: center;
-  margin: 0 3%;
+  margin: 0 10px;
 `;
 
 export const FooterName = styled.Text`
@@ -82,12 +80,12 @@ export const Comments = styled.Text`
 `;
 
 export const ButtonIconComments = styled.TouchableOpacity`
-  margin: 0 3%;
+  margin: 0 10px;
 `;
 
 export const AddCommentUser = styled.View`
   flex-direction: row;
-  margin: 3%;
+  margin: 5px 10px;
   align-items: center;
 `;
 
@@ -98,8 +96,7 @@ export const AddCommentText = styled.Text`
 `;
 
 export const PostedAgoText = styled.Text`
-  margin-bottom: 20px;
-  margin: 0 3%;
+  margin: 0 10px;
   font-size: 10px;
   color: #A9A9A9;
 `;

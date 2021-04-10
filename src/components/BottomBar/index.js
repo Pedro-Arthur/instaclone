@@ -1,23 +1,24 @@
 import React from 'react';
-import { Container, IconButton, IconImage, ProfileButton, ProfileImage } from './styles';
+import { Container, IconButton, ProfileButton, ProfileImage } from './styles';
+import { Feather } from '@expo/vector-icons';
 
 export default function BottomBar() {
   return (
     <Container>
       <IconButton>
-        <IconImage source={require('../../assets/img/home.png')} />
+        <Feather name="home" size={24} color="black" />
       </IconButton>
 
       <IconButton>
-        <IconImage source={require('../../assets/img/search.png')} />
+        <Feather name="search" size={24} color="black" />
       </IconButton>
 
       <IconButton>
-        <IconImage source={require('../../assets/img/reels.png')} />
+        <Feather name="instagram" size={24} color="black" />
       </IconButton>
 
       <IconButton>
-        <IconImage source={require('../../assets/img/bag.png')} />
+        <Feather name="shopping-bag" size={24} color="black" />
       </IconButton>
 
       <ProfileButton>

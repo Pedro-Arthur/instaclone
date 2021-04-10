@@ -21,8 +21,3 @@ export const Icons = styled.View`
 `;
 
 export const IconButton = styled.TouchableOpacity``;
-
-export const IconImage = styled.Image`
-  width: 22px;
-  height: 22px;
-`;

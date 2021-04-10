@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, LogoButton, LogoImage, Icons, IconButton, IconImage } from './styles';
+import { Container, LogoButton, LogoImage, Icons, IconButton } from './styles';
+import { Feather } from '@expo/vector-icons';
 
 export default function Header() {
   return (
@@ -10,15 +11,15 @@ export default function Header() {
 
       <Icons>
         <IconButton>
-          <IconImage source={require('../../assets/img/add.png')} />
+          <Feather name="plus-square" size={24} color="black" />
         </IconButton>
 
         <IconButton>
-          <IconImage source={require('../../assets/img/like.png')} />
+          <Feather name="heart" size={24} color="black" />
         </IconButton>
 
         <IconButton>
-          <IconImage source={require('../../assets/img/messenger.png')} />
+          <Feather name="send" size={24} color="black" />
         </IconButton>
       </Icons>
     </Container>
