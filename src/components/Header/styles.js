@@ -18,6 +18,7 @@ export const Icons = styled.View`
   flex-direction: row;
   width: 35%;
   justify-content: space-between;
+  align-items: center;
 `;
 
 export const IconButton = styled.TouchableOpacity``;

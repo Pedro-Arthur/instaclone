@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StatusBar, FlatList } from 'react-native';
+import { StatusBar, FlatList, ScrollView } from 'react-native';
 import styled from 'styled-components/native';
 
 import List from './src/components/List';
@@ -73,14 +73,15 @@ export default function App() {
 
       <Header />
 
-      <Stories />
-
-      <FlatList
-        showsVerticalScrollIndicator={false}
-        keyExtractor={(item) => item.id}
-        data={feed}
-        renderItem={({ item }) => <List data={item} />}
-      />
+      <ScrollView>
+        <Stories />
+        <FlatList
+          showsVerticalScrollIndicator={false}
+          keyExtractor={(item) => item.id}
+          data={feed}
+          renderItem={({ item }) => <List data={item} />}
+        />
+      </ScrollView>
 
       <BottomBar />
     </Container>

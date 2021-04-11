@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, LogoButton, LogoImage, Icons, IconButton } from './styles';
-import { Feather } from '@expo/vector-icons';
+import { Feather, MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function Header() {
   return (
@@ -15,7 +15,7 @@ export default function Header() {
         </IconButton>
 
         <IconButton>
-          <Feather name="heart" size={24} color="black" />
+          <MaterialCommunityIcons name="heart-outline" size={26} color="black" />
         </IconButton>
 
         <IconButton>

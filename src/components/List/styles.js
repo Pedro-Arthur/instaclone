@@ -55,6 +55,7 @@ export const ButtonArea = styled.View`
   flex-direction: row;
   width: 30%;
   justify-content: space-between;
+  align-items: center;
 `;
 
 export const Footer = styled.View`
